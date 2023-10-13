@@ -1,8 +1,8 @@
 
-# A title
+# Title
 
 ## Description
-A description
+DESCRIPTION
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,21 +12,21 @@ A description
 - [License](#license)
 
 ## Installation
-instructions
+INSTRUCTIONS
 
 ## Usage
-npm i
+INFO
 
 ## Contributing
-Guidelines
+GUIDELINES
 
 ## Tests
-instructions
+TEST INSTRUCTIONS
 
 ## License
 MIT
 
 ## Questions
-- GitHub: [CortezT](https://github.com/CortezT)
+- GitHub: [cortezT](https://github.com/cortezT)
 - Email: trystan.m.cortez@gmail.com
     
