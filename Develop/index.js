@@ -50,3 +50,43 @@ inquirer
             message: 'Enter your email address:',
         },
     ])
+    .then((answers) => {
+        const readmeContent = `
+# ${answers.title}
+
+## Description
+${answers.description}
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [License](#license)
+
+## Installation
+${answers.installation}
+
+## Usage
+${answers.usage}
+
+## Contributing
+${answers.contributing}
+
+## Tests
+${answers.tests}
+
+## License
+${answers.license}
+
+## Questions
+- GitHub: [${answers.github}](https://github.com/${answers.github})
+- Email: ${answers.email}
+    `;
+
+        // Write the README file
+        fs.writeFile('README.md', readmeContent, (err) => {
+            if (err) throw err;
+            console.log('README.md has been created successfully.');
+        });
+    });
